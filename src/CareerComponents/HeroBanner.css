@@ -1,0 +1,40 @@
+.main-nav {
+    background-image: url(http://careers.dish.com/images/hero-images/FieldsOfWork_XL.jpg);
+    margin: 0 auto;
+    height: 470px;
+    padding: 0 0 !important;
+    position: relative;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.mainNavContent {
+    position: absolute;
+    bottom: -101px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+.heroText {
+    font-family: 'proxima_novaextrabold', arial, sans-serif;
+    font-size: 90px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7));
+    position: relative;
+    top:60%;
+}
+.mainNavContent p {
+    background-color: #ffffff;
+    padding: 55px;
+    -webkit-box-shadow: 0px 0px 150px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 150px rgba(0,0,0,0.3);
+    /* font-size: 18px; */
+    width: 90%;
+}
+.sectionTiles {
+    padding-top: 14%;
+}

@@ -1,0 +1,45 @@
+.jobCardCollection {
+    display: flex;
+    flex-wrap: wrap;
+}
+.cardContent {
+    width: 30.33%;
+    margin: 0 10px;
+    position: relative;
+}
+.cardContent img {
+    width: 100%;
+    height: auto;
+}
+.card-txt {
+    position: absolute;
+    top: 94px;
+    color: #ffffff;
+    opacity: 0;
+
+}
+.card-txt:hover {
+    position: absolute;
+    top: 108px;
+    color: #ffffff;
+    opacity: 1;
+
+}
+.jobButton {
+    color: #ffffff;
+    border-color: #d70e3d;
+    background-color: #d70e3d;
+    width: 140px;
+    margin: 0 !important;
+    padding-top: 0;
+    z-index: 200;
+    padding: 12px 40px 10px !important;
+    color: #000;
+    border: 1.5px solid #000;
+    border-radius: 56px;
+    display: inline-block;
+    width: -webkit-max-content !important;
+    width: -moz-max-content !important;
+    width: max-content !important;
+    text-align: center;
+}
